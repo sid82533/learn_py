@@ -24,3 +24,15 @@ print(raw)
 multi = """It was the best of times. 
 It was the awesomest of times."""
 print(multi)
+
+for x in "banana":
+    print(x)
+
+text = "I am trying new things"
+print("new" in text)
+
+text1 = "I am trying new things"
+if "new" in text1:
+    print("'New' is present in the above string")
+else:
+    print("Fail")
